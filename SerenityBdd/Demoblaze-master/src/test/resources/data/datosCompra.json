@@ -1,0 +1,15 @@
+{
+    "products": {
+      "product1": "Iphone 6 32gb",
+      "product2": "Nexus 6"
+    },
+    "form": {
+      "name": "Jose Valle",
+      "country": "Colombia",
+      "city": "Medellin",
+      "creditCard": "123456789",
+      "month": "2",
+      "year": "2026"
+    },
+  "message": "Thank you for your purchase!"
+  }
