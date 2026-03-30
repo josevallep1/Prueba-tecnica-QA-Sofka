@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 105976,
+    "errorCount" : 4,
+    "errorPct" : 0.0037744395,
+    "meanResTime" : 1546.0436702649442,
+    "medianResTime" : 976.0,
+    "minResTime" : 434.0,
+    "maxResTime" : 42092.0,
+    "pct1ResTime" : 2227.0,
+    "pct2ResTime" : 4033.9000000000015,
+    "pct3ResTime" : 16200.0,
+    "throughput" : 110.39074674377713,
+    "receivedKBytesPerSec" : 99.24698177970912,
+    "sentKBytesPerSec" : 25.850268793332972
+  },
+  "Fakestoreapi Login" : {
+    "transaction" : "Fakestoreapi Login",
+    "sampleCount" : 105976,
+    "errorCount" : 4,
+    "errorPct" : 0.0037744395,
+    "meanResTime" : 1546.0436702649442,
+    "medianResTime" : 976.0,
+    "minResTime" : 434.0,
+    "maxResTime" : 42092.0,
+    "pct1ResTime" : 2227.0,
+    "pct2ResTime" : 4033.9000000000015,
+    "pct3ResTime" : 16200.0,
+    "throughput" : 110.39074674377713,
+    "receivedKBytesPerSec" : 99.24698177970912,
+    "sentKBytesPerSec" : 25.850268793332972
+  }
+}

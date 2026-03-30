@@ -26,10 +26,10 @@ siguientes validaciones:
 *   **Tiempo de Respuesta Promedio:** [461 ms] en percentil 95%
 *   **Porcentaje de Error:** 0%
 *   **Conclusión:** El sistema se comporta de manera estable en condiciones ideales, sirviendo como punto de referencia para las pruebas de carga.
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 ### 🔹 Escenario: Carga (Escalabilidad)
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 *   **Usuarios Virtuales (VUs):** 30 (Rampa 300s y 600s de carga) 
 *   **Throughput (Transacciones/seg):** [57 TPS] 
 (TPS = Peticiones / Duracion de la prueba) 54715/960 = 56,99
@@ -37,22 +37,25 @@ siguientes validaciones:
 *   **Conclusión:** Se observa un comportamiento [Estable] al alcanzar los 30 usuarios simultáneos. Los tiempos de respuesta se mantienen dentro de los umbrales aceptables (< 1500ms) 1.5s.
 
 ##### Imagen rampa 300s
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 ##### Imagen carga 600s
-![alt text](<Captura de pantalla 2026-03-26 171805.png>)
+![alt text](./Images/Captura2026-03-26-171805.png)
 
 ### 🔹 Escenario: Estrés (Punto de Ruptura)
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 *   **Usuarios Virtuales (VUs):** 60
-*   **Tasa de Error:** [Insertar %]
+*   **Tasa de Error:** [0 %]
 *   **Hallazgo:** 
 - El servidor comenzó a retornar tiempos de respuesta superiores a 1.5s al superar los 50 usuarios.
 ##### Imagen 60 usuarios Virtuales
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 #### Se aumentaron los usuarios virtuales a 120 para encontrar el punto de ruptura
-- El servidor soporto dicha carga y no presento fallas en las respuestas.
+*   **Usuarios Virtuales (VUs):** 120
+*   **Tasa de Error:** [ %]
+*   **Hallazgo:** 
+- El servidor soporto dicha carga, no presento fallas en las respuestas pero si degeneración en el tiempo de respuesta (Verificar Resporte html).
 ---
 
 ## 🔍 3. Hallazgos Principales (Key Findings)

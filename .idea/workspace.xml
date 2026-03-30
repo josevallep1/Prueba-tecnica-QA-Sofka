@@ -6,6 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="f7568b84-7553-4206-a55b-757a59504b20" name="Changes" comment="Adiconar primera prueba en serenity Bdd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JMeter/CONCLUSIONES.md" beforeDir="false" afterPath="$PROJECT_DIR$/JMeter/CONCLUSIONES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JMeter/Captura de pantalla 2026-03-26 171805.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JMeter/Captura de pantalla 2026-03-26 182211.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JMeter/Captura de pantalla 2026-03-26 182220.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JMeter/InformeResultados.md" beforeDir="false" afterPath="$PROJECT_DIR$/JMeter/InformeResultados.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JMeter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/JMeter/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JMeter/Script/Login_fakestoreapi.jmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JMeter/image-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JMeter/image-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JMeter/image-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JMeter/image-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JMeter/image-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JMeter/image.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Develop" />
+        <entry key="$PROJECT_DIR$" value="Feature/EJERCICIO3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +64,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Feature/EJERCICIO2",
+    "git-widget-placeholder": "Feature/Mejoras__reportadas__validador__tecnico",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/RepoPersonales/Prueba-tecnica-QA-Sofka/KarateDsl/Demoblaze-master",
     "settings.editor.selected.configurable": "preferences.fileTypes"
