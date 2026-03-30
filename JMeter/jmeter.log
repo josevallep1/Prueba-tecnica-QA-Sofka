@@ -1,0 +1,849 @@
+2026-03-30 17:25:12,090 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-03-30 17:25:12,123 INFO o.a.j.JMeter: Loading user properties from: C:\JMeter\apache-jmeter-5.6.3\bin\user.properties
+2026-03-30 17:25:12,123 INFO o.a.j.JMeter: Loading system properties from: C:\JMeter\apache-jmeter-5.6.3\bin\system.properties
+2026-03-30 17:25:12,138 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-03-30 17:25:12,138 INFO o.a.j.JMeter: Version 5.6.3
+2026-03-30 17:25:12,138 INFO o.a.j.JMeter: java.version=21.0.9
+2026-03-30 17:25:12,138 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-03-30 17:25:12,138 INFO o.a.j.JMeter: os.name=Windows 11
+2026-03-30 17:25:12,138 INFO o.a.j.JMeter: os.arch=amd64
+2026-03-30 17:25:12,138 INFO o.a.j.JMeter: os.version=10.0
+2026-03-30 17:25:12,138 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-03-30 17:25:12,138 INFO o.a.j.JMeter: java.awt.headless=true
+2026-03-30 17:25:12,138 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-03-30 17:25:12,138 INFO o.a.j.JMeter: Available Processors =8
+2026-03-30 17:25:12,153 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-03-30 17:25:12,153 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-03-30 17:25:12,153 INFO o.a.j.JMeter: JMeterHome=C:\JMeter\apache-jmeter-5.6.3
+2026-03-30 17:25:12,153 INFO o.a.j.JMeter: user.dir  =C:\RepoPersonales\Prueba-tecnica-QA-Sofka\JMeter
+2026-03-30 17:25:12,153 INFO o.a.j.JMeter: PWD       =C:\RepoPersonales\Prueba-tecnica-QA-Sofka\JMeter
+2026-03-30 17:25:12,170 INFO o.a.j.JMeter: IP: 192.168.78.173 Name: PROV121 FullName: PROV121.Sistecredito.Med
+2026-03-30 17:25:12,170 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\RepoPersonales\Prueba-tecnica-QA-Sofka\JMeter\.\reporte_html'
+2026-03-30 17:25:12,170 INFO o.a.j.s.FileServer: Default base='C:\RepoPersonales\Prueba-tecnica-QA-Sofka\JMeter'
+2026-03-30 17:25:12,170 INFO o.a.j.s.FileServer: Set new base='C:\RepoPersonales\Prueba-tecnica-QA-Sofka\JMeter'
+2026-03-30 17:25:12,411 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-03-30 17:25:12,463 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-03-30 17:25:12,463 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-03-30 17:25:12,471 INFO o.a.j.s.SaveService: Loading file: Login_fakestoreapi.jmx
+2026-03-30 17:25:12,534 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-30 17:25:12,534 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-30 17:25:12,534 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-30 17:25:12,534 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-30 17:25:12,534 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-03-30 17:25:12,534 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-03-30 17:25:12,581 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-03-30 17:25:12,581 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-03-30 17:25:12,581 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: resultados.jtl
+2026-03-30 17:25:12,581 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\JMeter\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2026-03-30 17:25:12,581 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-03-30 17:25:12,581 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-03-30 17:25:12,597 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-03-30 17:25:12,620 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-03-30 17:25:12,620 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-03-30 17:25:12,620 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-03-30 17:25:12,628 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-03-30 17:25:12,628 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-03-30 17:25:12,685 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-03-30 17:25:12,700 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-03-30 17:25:12,700 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-03-30 17:25:12,796 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-03-30 17:25:12,859 INFO o.a.j.JMeter: Running test (1774909512859)
+2026-03-30 17:25:12,875 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Linea Base
+2026-03-30 17:25:12,875 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Linea Base.
+2026-03-30 17:25:12,875 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2026-03-30 17:25:12,875 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2026-03-30 17:25:12,875 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-03-30 17:25:12,875 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Carga
+2026-03-30 17:25:12,875 INFO o.a.j.e.StandardJMeterEngine: Starting 30 threads for group Carga.
+2026-03-30 17:25:12,875 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-03-30 17:25:12,875 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 2 threads 30
+2026-03-30 17:25:12,905 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 2
+2026-03-30 17:25:12,905 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Estres 60
+2026-03-30 17:25:12,905 INFO o.a.j.e.StandardJMeterEngine: Starting 60 threads for group Estres 60.
+2026-03-30 17:25:12,905 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-03-30 17:25:12,905 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 3 threads 60
+2026-03-30 17:25:12,954 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 3
+2026-03-30 17:25:12,954 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Estres 120
+2026-03-30 17:25:12,959 INFO o.a.j.e.StandardJMeterEngine: Starting 120 threads for group Estres 120.
+2026-03-30 17:25:12,959 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-03-30 17:25:12,959 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 4 threads 120
+2026-03-30 17:25:13,013 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 4
+2026-03-30 17:25:13,013 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-03-30 17:25:13,113 INFO o.a.j.t.JMeterThread: Thread started: Linea Base 1-1
+2026-03-30 17:25:13,125 INFO o.a.j.s.FileServer: Stored: ./Data/LoginData.csv
+2026-03-30 17:25:13,156 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = PROV121
+2026-03-30 17:25:13,164 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-03-30 17:25:13,172 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-03-30 17:25:13,172 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-03-30 17:25:13,172 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-03-30 17:25:13,172 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-03-30 17:25:13,335 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2026-03-30 17:25:13,351 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2026-03-30 17:25:13,351 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2026-03-30 17:25:13,541 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2026-03-30 17:25:13,541 INFO o.a.j.u.SSLManager: KeyStore created OK
+2026-03-30 17:25:13,541 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2026-03-30 17:25:15,460 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-120
+2026-03-30 17:25:17,906 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-60
+2026-03-30 17:25:17,960 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-119
+2026-03-30 17:25:20,474 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-118
+2026-03-30 17:25:22,890 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-30
+2026-03-30 17:25:22,910 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-59
+2026-03-30 17:25:22,966 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-117
+2026-03-30 17:25:25,460 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-116
+2026-03-30 17:25:27,906 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-58
+2026-03-30 17:25:27,961 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-115
+2026-03-30 17:25:30,008 INFO o.a.j.r.Summariser: summary +    150 in 00:00:17 =    8.7/s Avg:   613 Min:   444 Max:  1192 Err:     0 (0.00%) Active: 11 Started: 11 Finished: 0
+2026-03-30 17:25:30,460 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-114
+2026-03-30 17:25:32,892 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-29
+2026-03-30 17:25:32,906 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-57
+2026-03-30 17:25:32,969 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-113
+2026-03-30 17:25:35,473 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-112
+2026-03-30 17:25:37,910 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-56
+2026-03-30 17:25:37,960 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-111
+2026-03-30 17:25:40,470 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-110
+2026-03-30 17:25:42,877 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-28
+2026-03-30 17:25:42,910 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-55
+2026-03-30 17:25:42,966 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-109
+2026-03-30 17:25:45,467 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-108
+2026-03-30 17:25:47,906 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-54
+2026-03-30 17:25:47,961 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-107
+2026-03-30 17:25:50,473 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-106
+2026-03-30 17:25:52,882 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-27
+2026-03-30 17:25:52,911 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-53
+2026-03-30 17:25:52,974 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-105
+2026-03-30 17:25:55,466 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-104
+2026-03-30 17:25:57,908 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-52
+2026-03-30 17:25:57,960 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-103
+2026-03-30 17:26:00,006 INFO o.a.j.r.Summariser: summary +   1035 in 00:00:30 =   34.5/s Avg:   628 Min:   442 Max:  1728 Err:     0 (0.00%) Active: 32 Started: 32 Finished: 0
+2026-03-30 17:26:00,006 INFO o.a.j.r.Summariser: summary =   1185 in 00:00:47 =   25.1/s Avg:   626 Min:   442 Max:  1728 Err:     0 (0.00%)
+2026-03-30 17:26:00,469 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-102
+2026-03-30 17:26:02,886 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-26
+2026-03-30 17:26:02,909 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-51
+2026-03-30 17:26:02,960 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-101
+2026-03-30 17:26:05,468 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-100
+2026-03-30 17:26:07,909 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-50
+2026-03-30 17:26:07,974 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-99
+2026-03-30 17:26:10,473 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-98
+2026-03-30 17:26:12,876 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-25
+2026-03-30 17:26:12,909 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-49
+2026-03-30 17:26:12,959 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-97
+2026-03-30 17:26:15,461 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-96
+2026-03-30 17:26:17,909 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-48
+2026-03-30 17:26:17,974 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-95
+2026-03-30 17:26:20,470 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-94
+2026-03-30 17:26:22,875 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-24
+2026-03-30 17:26:22,907 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-47
+2026-03-30 17:26:22,972 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-93
+2026-03-30 17:26:25,474 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-92
+2026-03-30 17:26:27,909 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-46
+2026-03-30 17:26:27,975 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-91
+2026-03-30 17:26:30,007 INFO o.a.j.r.Summariser: summary +   2032 in 00:00:30 =   67.7/s Avg:   630 Min:   440 Max:  1100 Err:     0 (0.00%) Active: 53 Started: 53 Finished: 0
+2026-03-30 17:26:30,007 INFO o.a.j.r.Summariser: summary =   3217 in 00:01:17 =   41.7/s Avg:   628 Min:   440 Max:  1728 Err:     0 (0.00%)
+2026-03-30 17:26:30,461 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-90
+2026-03-30 17:26:32,892 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-23
+2026-03-30 17:26:32,911 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-45
+2026-03-30 17:26:32,975 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-89
+2026-03-30 17:26:35,469 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-88
+2026-03-30 17:26:37,907 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-44
+2026-03-30 17:26:37,960 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-87
+2026-03-30 17:26:40,466 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-86
+2026-03-30 17:26:42,876 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-22
+2026-03-30 17:26:42,909 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-43
+2026-03-30 17:26:42,959 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-85
+2026-03-30 17:26:45,459 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-84
+2026-03-30 17:26:47,914 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-42
+2026-03-30 17:26:47,961 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-83
+2026-03-30 17:26:50,469 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-82
+2026-03-30 17:26:52,888 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-21
+2026-03-30 17:26:52,920 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-41
+2026-03-30 17:26:52,974 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-81
+2026-03-30 17:26:55,469 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-80
+2026-03-30 17:26:57,905 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-40
+2026-03-30 17:26:57,972 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-79
+2026-03-30 17:27:00,003 INFO o.a.j.r.Summariser: summary +   3009 in 00:00:30 =  100.3/s Avg:   635 Min:   434 Max:  1106 Err:     0 (0.00%) Active: 74 Started: 74 Finished: 0
+2026-03-30 17:27:00,003 INFO o.a.j.r.Summariser: summary =   6226 in 00:01:47 =   58.1/s Avg:   631 Min:   434 Max:  1728 Err:     0 (0.00%)
+2026-03-30 17:27:00,474 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-78
+2026-03-30 17:27:02,877 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-20
+2026-03-30 17:27:02,909 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-39
+2026-03-30 17:27:02,965 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-77
+2026-03-30 17:27:05,473 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-76
+2026-03-30 17:27:07,907 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-38
+2026-03-30 17:27:07,973 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-75
+2026-03-30 17:27:10,466 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-74
+2026-03-30 17:27:12,888 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-19
+2026-03-30 17:27:12,907 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-37
+2026-03-30 17:27:12,967 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-73
+2026-03-30 17:27:15,474 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-72
+2026-03-30 17:27:17,914 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-36
+2026-03-30 17:27:17,973 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-71
+2026-03-30 17:27:20,461 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-70
+2026-03-30 17:27:22,888 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-18
+2026-03-30 17:27:22,907 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-35
+2026-03-30 17:27:22,972 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-69
+2026-03-30 17:27:25,471 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-68
+2026-03-30 17:27:27,907 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-34
+2026-03-30 17:27:27,974 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-67
+2026-03-30 17:27:30,033 INFO o.a.j.r.Summariser: summary +   3652 in 00:00:30 =  121.6/s Avg:   694 Min:   438 Max:  1775 Err:     0 (0.00%) Active: 95 Started: 95 Finished: 0
+2026-03-30 17:27:30,034 INFO o.a.j.r.Summariser: summary =   9878 in 00:02:17 =   72.0/s Avg:   655 Min:   434 Max:  1775 Err:     0 (0.00%)
+2026-03-30 17:27:30,472 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-66
+2026-03-30 17:27:32,887 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-17
+2026-03-30 17:27:32,911 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-33
+2026-03-30 17:27:32,974 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-65
+2026-03-30 17:27:34,039 INFO o.a.j.t.JMeterThread: Thread is done: Linea Base 1-1
+2026-03-30 17:27:34,039 INFO o.a.j.t.JMeterThread: Thread finished: Linea Base 1-1
+2026-03-30 17:27:35,472 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-64
+2026-03-30 17:27:37,910 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-32
+2026-03-30 17:27:37,971 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-63
+2026-03-30 17:27:40,474 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-62
+2026-03-30 17:27:42,882 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-16
+2026-03-30 17:27:42,907 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-31
+2026-03-30 17:27:42,972 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-61
+2026-03-30 17:27:45,460 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-60
+2026-03-30 17:27:47,918 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-30
+2026-03-30 17:27:47,964 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-59
+2026-03-30 17:27:50,468 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-58
+2026-03-30 17:27:52,889 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-15
+2026-03-30 17:27:52,907 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-29
+2026-03-30 17:27:52,972 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-57
+2026-03-30 17:27:55,468 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-56
+2026-03-30 17:27:57,907 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-28
+2026-03-30 17:27:57,972 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-55
+2026-03-30 17:28:00,206 INFO o.a.j.r.Summariser: summary +   4056 in 00:00:30 =  134.4/s Avg:   775 Min:   443 Max:  1464 Err:     0 (0.00%) Active: 115 Started: 116 Finished: 1
+2026-03-30 17:28:00,207 INFO o.a.j.r.Summariser: summary =  13934 in 00:02:47 =   83.3/s Avg:   690 Min:   434 Max:  1775 Err:     0 (0.00%)
+2026-03-30 17:28:00,473 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-54
+2026-03-30 17:28:02,889 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-14
+2026-03-30 17:28:02,906 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-27
+2026-03-30 17:28:02,973 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-53
+2026-03-30 17:28:05,471 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-52
+2026-03-30 17:28:07,913 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-26
+2026-03-30 17:28:07,967 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-51
+2026-03-30 17:28:10,462 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-50
+2026-03-30 17:28:12,880 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-13
+2026-03-30 17:28:12,911 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-25
+2026-03-30 17:28:12,974 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-49
+2026-03-30 17:28:15,471 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-48
+2026-03-30 17:28:17,907 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-24
+2026-03-30 17:28:17,961 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-47
+2026-03-30 17:28:20,472 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-46
+2026-03-30 17:28:22,881 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-12
+2026-03-30 17:28:22,913 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-23
+2026-03-30 17:28:22,960 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-45
+2026-03-30 17:28:25,471 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-44
+2026-03-30 17:28:27,908 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-22
+2026-03-30 17:28:27,971 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-43
+2026-03-30 17:28:30,015 INFO o.a.j.r.Summariser: summary +   3127 in 00:00:30 =  104.9/s Avg:   968 Min:   601 Max:  7672 Err:     0 (0.00%) Active: 136 Started: 137 Finished: 1
+2026-03-30 17:28:30,016 INFO o.a.j.r.Summariser: summary =  17061 in 00:03:17 =   86.5/s Avg:   741 Min:   434 Max:  7672 Err:     0 (0.00%)
+2026-03-30 17:28:30,463 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-42
+2026-03-30 17:28:32,885 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-11
+2026-03-30 17:28:32,917 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-21
+2026-03-30 17:28:32,964 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-41
+2026-03-30 17:28:35,472 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-40
+2026-03-30 17:28:37,906 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-20
+2026-03-30 17:28:37,961 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-39
+2026-03-30 17:28:40,476 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-38
+2026-03-30 17:28:42,883 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-10
+2026-03-30 17:28:42,916 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-19
+2026-03-30 17:28:42,964 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-37
+2026-03-30 17:28:45,466 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-36
+2026-03-30 17:28:47,907 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-18
+2026-03-30 17:28:47,972 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-35
+2026-03-30 17:28:50,466 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-34
+2026-03-30 17:28:52,884 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-9
+2026-03-30 17:28:52,911 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-17
+2026-03-30 17:28:52,973 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-33
+2026-03-30 17:28:55,461 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-32
+2026-03-30 17:28:57,917 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-16
+2026-03-30 17:28:57,964 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-31
+2026-03-30 17:29:00,291 INFO o.a.j.r.Summariser: summary +   3520 in 00:00:30 =  116.3/s Avg:  1344 Min:   600 Max: 21967 Err:     0 (0.00%) Active: 157 Started: 158 Finished: 1
+2026-03-30 17:29:00,291 INFO o.a.j.r.Summariser: summary =  20581 in 00:03:47 =   90.5/s Avg:   844 Min:   434 Max: 21967 Err:     0 (0.00%)
+2026-03-30 17:29:00,471 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-30
+2026-03-30 17:29:02,887 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-8
+2026-03-30 17:29:02,911 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-15
+2026-03-30 17:29:02,960 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-29
+2026-03-30 17:29:05,470 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-28
+2026-03-30 17:29:07,906 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-14
+2026-03-30 17:29:07,969 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-27
+2026-03-30 17:29:10,467 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-26
+2026-03-30 17:29:12,884 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-7
+2026-03-30 17:29:12,920 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-13
+2026-03-30 17:29:12,968 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-25
+2026-03-30 17:29:15,474 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-24
+2026-03-30 17:29:17,911 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-12
+2026-03-30 17:29:17,974 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-23
+2026-03-30 17:29:20,464 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-22
+2026-03-30 17:29:22,880 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-6
+2026-03-30 17:29:22,912 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-11
+2026-03-30 17:29:22,970 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-21
+2026-03-30 17:29:25,482 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-20
+2026-03-30 17:29:27,915 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-10
+2026-03-30 17:29:27,995 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-19
+2026-03-30 17:29:30,011 INFO o.a.j.r.Summariser: summary +   3327 in 00:00:30 =  111.9/s Avg:  1510 Min:   599 Max: 28688 Err:     0 (0.00%) Active: 178 Started: 179 Finished: 1
+2026-03-30 17:29:30,011 INFO o.a.j.r.Summariser: summary =  23908 in 00:04:17 =   93.0/s Avg:   936 Min:   434 Max: 28688 Err:     0 (0.00%)
+2026-03-30 17:29:30,471 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-18
+2026-03-30 17:29:32,887 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-5
+2026-03-30 17:29:32,920 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-9
+2026-03-30 17:29:32,967 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-17
+2026-03-30 17:29:35,469 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-16
+2026-03-30 17:29:37,920 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-8
+2026-03-30 17:29:37,983 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-15
+2026-03-30 17:29:40,460 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-14
+2026-03-30 17:29:42,884 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-4
+2026-03-30 17:29:42,915 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-7
+2026-03-30 17:29:42,963 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-13
+2026-03-30 17:29:45,466 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-12
+2026-03-30 17:29:47,907 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-6
+2026-03-30 17:29:47,968 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-11
+2026-03-30 17:29:50,470 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-10
+2026-03-30 17:29:52,883 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-3
+2026-03-30 17:29:52,913 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-5
+2026-03-30 17:29:52,960 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-9
+2026-03-30 17:29:55,462 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-8
+2026-03-30 17:29:57,905 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-4
+2026-03-30 17:29:57,965 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-7
+2026-03-30 17:30:00,463 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-6
+2026-03-30 17:30:00,641 INFO o.a.j.r.Summariser: summary +   4406 in 00:00:31 =  143.9/s Avg:  1365 Min:   603 Max: 24695 Err:     0 (0.00%) Active: 200 Started: 201 Finished: 1
+2026-03-30 17:30:00,641 INFO o.a.j.r.Summariser: summary =  28314 in 00:04:48 =   98.4/s Avg:  1003 Min:   434 Max: 28688 Err:     0 (0.00%)
+2026-03-30 17:30:02,887 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-2
+2026-03-30 17:30:02,920 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-3
+2026-03-30 17:30:02,970 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-5
+2026-03-30 17:30:05,469 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-4
+2026-03-30 17:30:07,910 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-2
+2026-03-30 17:30:07,973 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-3
+2026-03-30 17:30:10,470 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-2
+2026-03-30 17:30:12,879 INFO o.a.j.t.JMeterThread: Thread started: Carga 2-1
+2026-03-30 17:30:12,906 INFO o.a.j.t.JMeterThread: Thread started: Estres 60 3-1
+2026-03-30 17:30:12,970 INFO o.a.j.t.JMeterThread: Thread started: Estres 120 4-1
+2026-03-30 17:30:30,077 INFO o.a.j.r.Summariser: summary +   2915 in 00:00:29 =   99.0/s Avg:  1613 Min:   602 Max: 24696 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:30:30,077 INFO o.a.j.r.Summariser: summary =  31229 in 00:05:17 =   98.4/s Avg:  1060 Min:   434 Max: 28688 Err:     0 (0.00%)
+2026-03-30 17:31:00,026 INFO o.a.j.r.Summariser: summary +   3259 in 00:00:30 =  108.8/s Avg:  2181 Min:   602 Max: 29491 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:31:00,026 INFO o.a.j.r.Summariser: summary =  34488 in 00:05:47 =   99.3/s Avg:  1166 Min:   434 Max: 29491 Err:     0 (0.00%)
+2026-03-30 17:31:30,007 INFO o.a.j.r.Summariser: summary +   3036 in 00:00:30 =  101.3/s Avg:  2014 Min:   599 Max: 22662 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:31:30,007 INFO o.a.j.r.Summariser: summary =  37524 in 00:06:17 =   99.5/s Avg:  1235 Min:   434 Max: 29491 Err:     0 (0.00%)
+2026-03-30 17:32:00,052 INFO o.a.j.r.Summariser: summary +   4217 in 00:00:30 =  140.4/s Avg:  1681 Min:   601 Max: 28677 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:32:00,052 INFO o.a.j.r.Summariser: summary =  41741 in 00:06:47 =  102.5/s Avg:  1280 Min:   434 Max: 29491 Err:     0 (0.00%)
+2026-03-30 17:32:30,006 INFO o.a.j.r.Summariser: summary +   3411 in 00:00:30 =  113.9/s Avg:  1510 Min:   601 Max: 21710 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:32:30,006 INFO o.a.j.r.Summariser: summary =  45152 in 00:07:17 =  103.3/s Avg:  1297 Min:   434 Max: 29491 Err:     0 (0.00%)
+2026-03-30 17:33:00,012 INFO o.a.j.r.Summariser: summary +   3676 in 00:00:30 =  122.5/s Avg:  2047 Min:   600 Max: 37526 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:33:00,012 INFO o.a.j.r.Summariser: summary =  48828 in 00:07:47 =  104.5/s Avg:  1354 Min:   434 Max: 37526 Err:     0 (0.00%)
+2026-03-30 17:33:30,039 INFO o.a.j.r.Summariser: summary +   3046 in 00:00:30 =  101.4/s Avg:  1704 Min:   598 Max: 24682 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:33:30,039 INFO o.a.j.r.Summariser: summary =  51874 in 00:08:17 =  104.3/s Avg:  1374 Min:   434 Max: 37526 Err:     0 (0.00%)
+2026-03-30 17:34:00,030 INFO o.a.j.r.Summariser: summary +   4013 in 00:00:30 =  133.8/s Avg:  1815 Min:   599 Max: 42092 Err:     1 (0.02%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:34:00,030 INFO o.a.j.r.Summariser: summary =  55887 in 00:08:47 =  106.0/s Avg:  1406 Min:   434 Max: 42092 Err:     1 (0.00%)
+2026-03-30 17:34:30,024 INFO o.a.j.r.Summariser: summary +   3091 in 00:00:30 =  103.1/s Avg:  1754 Min:   601 Max: 28680 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:34:30,024 INFO o.a.j.r.Summariser: summary =  58978 in 00:09:17 =  105.9/s Avg:  1424 Min:   434 Max: 42092 Err:     1 (0.00%)
+2026-03-30 17:35:00,572 INFO o.a.j.r.Summariser: summary +   3698 in 00:00:31 =  121.1/s Avg:  1973 Min:   599 Max: 37503 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:35:00,580 INFO o.a.j.r.Summariser: summary =  62676 in 00:09:48 =  106.6/s Avg:  1456 Min:   434 Max: 42092 Err:     1 (0.00%)
+2026-03-30 17:35:30,009 INFO o.a.j.r.Summariser: summary +   3128 in 00:00:29 =  106.3/s Avg:  1703 Min:   599 Max: 22678 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:35:30,009 INFO o.a.j.r.Summariser: summary =  65804 in 00:10:17 =  106.6/s Avg:  1468 Min:   434 Max: 42092 Err:     1 (0.00%)
+2026-03-30 17:36:00,013 INFO o.a.j.r.Summariser: summary +   3906 in 00:00:30 =  130.2/s Avg:  1847 Min:   601 Max: 42068 Err:     1 (0.03%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:36:00,013 INFO o.a.j.r.Summariser: summary =  69710 in 00:10:47 =  107.7/s Avg:  1489 Min:   434 Max: 42092 Err:     2 (0.00%)
+2026-03-30 17:36:30,020 INFO o.a.j.r.Summariser: summary +   4109 in 00:00:30 =  136.9/s Avg:  1318 Min:   601 Max: 15685 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:36:30,020 INFO o.a.j.r.Summariser: summary =  73819 in 00:11:17 =  109.0/s Avg:  1480 Min:   434 Max: 42092 Err:     2 (0.00%)
+2026-03-30 17:37:00,219 INFO o.a.j.r.Summariser: summary +   3433 in 00:00:30 =  113.7/s Avg:  2059 Min:   601 Max: 37065 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:37:00,219 INFO o.a.j.r.Summariser: summary =  77252 in 00:11:47 =  109.2/s Avg:  1506 Min:   434 Max: 42092 Err:     2 (0.00%)
+2026-03-30 17:37:30,042 INFO o.a.j.r.Summariser: summary +   3711 in 00:00:30 =  124.4/s Avg:  1347 Min:   599 Max: 17145 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:37:30,042 INFO o.a.j.r.Summariser: summary =  80963 in 00:12:17 =  109.8/s Avg:  1498 Min:   434 Max: 42092 Err:     2 (0.00%)
+2026-03-30 17:38:00,582 INFO o.a.j.r.Summariser: summary +   3764 in 00:00:31 =  123.3/s Avg:  2042 Min:   600 Max: 42060 Err:     1 (0.03%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:38:00,582 INFO o.a.j.r.Summariser: summary =  84727 in 00:12:48 =  110.4/s Avg:  1522 Min:   434 Max: 42092 Err:     3 (0.00%)
+2026-03-30 17:38:30,009 INFO o.a.j.r.Summariser: summary +   3842 in 00:00:29 =  130.5/s Avg:  1339 Min:   599 Max: 17235 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:38:30,009 INFO o.a.j.r.Summariser: summary =  88569 in 00:13:17 =  111.1/s Avg:  1515 Min:   434 Max: 42092 Err:     3 (0.00%)
+2026-03-30 17:39:00,169 INFO o.a.j.r.Summariser: summary +   2832 in 00:00:30 =   93.9/s Avg:  2426 Min:   600 Max: 42048 Err:     1 (0.04%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:39:00,169 INFO o.a.j.r.Summariser: summary =  91401 in 00:13:47 =  110.5/s Avg:  1543 Min:   434 Max: 42092 Err:     4 (0.00%)
+2026-03-30 17:39:30,043 INFO o.a.j.r.Summariser: summary +   3554 in 00:00:30 =  119.0/s Avg:  1652 Min:   601 Max: 24685 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:39:30,043 INFO o.a.j.r.Summariser: summary =  94955 in 00:14:17 =  110.8/s Avg:  1547 Min:   434 Max: 42092 Err:     4 (0.00%)
+2026-03-30 17:40:00,574 INFO o.a.j.r.Summariser: summary +   3459 in 00:00:31 =  113.3/s Avg:  2024 Min:   601 Max: 37988 Err:     0 (0.00%) Active: 210 Started: 211 Finished: 1
+2026-03-30 17:40:00,574 INFO o.a.j.r.Summariser: summary =  98414 in 00:14:48 =  110.9/s Avg:  1564 Min:   434 Max: 42092 Err:     4 (0.00%)
+2026-03-30 17:40:13,859 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-120
+2026-03-30 17:40:13,860 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-120
+2026-03-30 17:40:14,853 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-60
+2026-03-30 17:40:14,853 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-60
+2026-03-30 17:40:14,855 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-118
+2026-03-30 17:40:14,856 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-118
+2026-03-30 17:40:15,619 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-117
+2026-03-30 17:40:15,619 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-117
+2026-03-30 17:40:15,844 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-116
+2026-03-30 17:40:15,845 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-116
+2026-03-30 17:40:16,611 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-59
+2026-03-30 17:40:16,616 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-59
+2026-03-30 17:40:16,618 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-58
+2026-03-30 17:40:16,619 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-58
+2026-03-30 17:40:16,631 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-115
+2026-03-30 17:40:16,631 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-115
+2026-03-30 17:40:16,861 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-114
+2026-03-30 17:40:16,861 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-114
+2026-03-30 17:40:17,620 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-57
+2026-03-30 17:40:17,620 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-57
+2026-03-30 17:40:17,622 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-112
+2026-03-30 17:40:17,622 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-112
+2026-03-30 17:40:17,714 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-29
+2026-03-30 17:40:17,714 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-29
+2026-03-30 17:40:17,851 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-113
+2026-03-30 17:40:17,851 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-113
+2026-03-30 17:40:17,856 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-119
+2026-03-30 17:40:17,856 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-119
+2026-03-30 17:40:18,629 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-56
+2026-03-30 17:40:18,629 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-56
+2026-03-30 17:40:18,634 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-110
+2026-03-30 17:40:18,634 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-110
+2026-03-30 17:40:19,622 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-109
+2026-03-30 17:40:19,623 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-109
+2026-03-30 17:40:19,779 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-28
+2026-03-30 17:40:19,780 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-28
+2026-03-30 17:40:19,857 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-111
+2026-03-30 17:40:19,857 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-111
+2026-03-30 17:40:19,861 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-108
+2026-03-30 17:40:19,861 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-108
+2026-03-30 17:40:20,624 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-107
+2026-03-30 17:40:20,624 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-107
+2026-03-30 17:40:20,916 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-106
+2026-03-30 17:40:20,916 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-106
+2026-03-30 17:40:21,264 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-105
+2026-03-30 17:40:21,264 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-105
+2026-03-30 17:40:21,629 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-54
+2026-03-30 17:40:21,630 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-54
+2026-03-30 17:40:21,630 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-53
+2026-03-30 17:40:21,631 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-53
+2026-03-30 17:40:22,255 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-103
+2026-03-30 17:40:22,255 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-103
+2026-03-30 17:40:22,620 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-52
+2026-03-30 17:40:22,621 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-52
+2026-03-30 17:40:22,645 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-27
+2026-03-30 17:40:22,645 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-27
+2026-03-30 17:40:22,886 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-102
+2026-03-30 17:40:22,888 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-102
+2026-03-30 17:40:23,256 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-51
+2026-03-30 17:40:23,256 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-51
+2026-03-30 17:40:23,257 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-26
+2026-03-30 17:40:23,257 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-26
+2026-03-30 17:40:23,620 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-100
+2026-03-30 17:40:23,620 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-101
+2026-03-30 17:40:23,620 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-101
+2026-03-30 17:40:23,620 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-100
+2026-03-30 17:40:24,251 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-50
+2026-03-30 17:40:24,251 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-50
+2026-03-30 17:40:24,258 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-99
+2026-03-30 17:40:24,258 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-99
+2026-03-30 17:40:24,624 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-98
+2026-03-30 17:40:24,625 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-98
+2026-03-30 17:40:25,624 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-25
+2026-03-30 17:40:25,624 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-25
+2026-03-30 17:40:26,593 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-48
+2026-03-30 17:40:26,607 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-48
+2026-03-30 17:40:26,694 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-49
+2026-03-30 17:40:26,694 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-49
+2026-03-30 17:40:27,227 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-47
+2026-03-30 17:40:27,227 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-47
+2026-03-30 17:40:27,246 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-97
+2026-03-30 17:40:27,246 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-97
+2026-03-30 17:40:27,252 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-93
+2026-03-30 17:40:27,252 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-93
+2026-03-30 17:40:27,637 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-96
+2026-03-30 17:40:27,637 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-96
+2026-03-30 17:40:28,226 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-46
+2026-03-30 17:40:28,226 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-46
+2026-03-30 17:40:28,251 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-104
+2026-03-30 17:40:28,251 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-104
+2026-03-30 17:40:28,922 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-90
+2026-03-30 17:40:28,922 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-90
+2026-03-30 17:40:29,229 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-89
+2026-03-30 17:40:29,229 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-89
+2026-03-30 17:40:30,012 INFO o.a.j.r.Summariser: summary +   4209 in 00:00:29 =  143.0/s Avg:  1389 Min:   600 Max: 17200 Err:     0 (0.00%) Active: 163 Started: 211 Finished: 48
+2026-03-30 17:40:30,013 INFO o.a.j.r.Summariser: summary = 102623 in 00:15:17 =  111.9/s Avg:  1556 Min:   434 Max: 42092 Err:     4 (0.00%)
+2026-03-30 17:40:30,275 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-30
+2026-03-30 17:40:30,291 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-30
+2026-03-30 17:40:30,851 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-86
+2026-03-30 17:40:30,851 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-86
+2026-03-30 17:40:31,212 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-85
+2026-03-30 17:40:31,214 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-85
+2026-03-30 17:40:31,497 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-22
+2026-03-30 17:40:31,497 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-22
+2026-03-30 17:40:31,513 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-84
+2026-03-30 17:40:31,513 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-84
+2026-03-30 17:40:32,003 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-42
+2026-03-30 17:40:32,003 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-42
+2026-03-30 17:40:32,268 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-87
+2026-03-30 17:40:32,268 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-87
+2026-03-30 17:40:32,268 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-91
+2026-03-30 17:40:32,268 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-91
+2026-03-30 17:40:32,282 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-23
+2026-03-30 17:40:32,298 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-23
+2026-03-30 17:40:32,299 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-55
+2026-03-30 17:40:32,299 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-55
+2026-03-30 17:40:32,503 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-43
+2026-03-30 17:40:32,503 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-43
+2026-03-30 17:40:33,268 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-83
+2026-03-30 17:40:33,268 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-83
+2026-03-30 17:40:33,536 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-92
+2026-03-30 17:40:33,536 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-92
+2026-03-30 17:40:33,635 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-81
+2026-03-30 17:40:33,635 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-81
+2026-03-30 17:40:33,866 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-21
+2026-03-30 17:40:33,866 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-21
+2026-03-30 17:40:34,401 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-24
+2026-03-30 17:40:34,401 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-24
+2026-03-30 17:40:34,512 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-80
+2026-03-30 17:40:34,512 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-80
+2026-03-30 17:40:34,512 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-79
+2026-03-30 17:40:34,512 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-79
+2026-03-30 17:40:34,560 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-78
+2026-03-30 17:40:34,560 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-78
+2026-03-30 17:40:35,309 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-77
+2026-03-30 17:40:35,309 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-77
+2026-03-30 17:40:35,410 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-39
+2026-03-30 17:40:35,410 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-39
+2026-03-30 17:40:36,701 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-76
+2026-03-30 17:40:36,701 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-76
+2026-03-30 17:40:37,027 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-20
+2026-03-30 17:40:37,027 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-20
+2026-03-30 17:40:37,063 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-74
+2026-03-30 17:40:37,063 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-74
+2026-03-30 17:40:37,275 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-73
+2026-03-30 17:40:37,275 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-73
+2026-03-30 17:40:37,544 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-72
+2026-03-30 17:40:37,544 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-72
+2026-03-30 17:40:37,894 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-19
+2026-03-30 17:40:37,894 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-19
+2026-03-30 17:40:37,926 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-36
+2026-03-30 17:40:37,926 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-36
+2026-03-30 17:40:38,310 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-44
+2026-03-30 17:40:38,311 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-44
+2026-03-30 17:40:39,275 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-82
+2026-03-30 17:40:39,275 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-82
+2026-03-30 17:40:39,528 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-68
+2026-03-30 17:40:39,528 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-68
+2026-03-30 17:40:39,707 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-71
+2026-03-30 17:40:39,707 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-71
+2026-03-30 17:40:39,710 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-70
+2026-03-30 17:40:39,710 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-70
+2026-03-30 17:40:39,991 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-67
+2026-03-30 17:40:39,991 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-67
+2026-03-30 17:40:40,189 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-35
+2026-03-30 17:40:40,189 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-35
+2026-03-30 17:40:40,479 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-37
+2026-03-30 17:40:40,479 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-37
+2026-03-30 17:40:40,552 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-94
+2026-03-30 17:40:40,552 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-94
+2026-03-30 17:40:41,115 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-17
+2026-03-30 17:40:41,115 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-17
+2026-03-30 17:40:41,196 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-34
+2026-03-30 17:40:41,202 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-34
+2026-03-30 17:40:41,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-69
+2026-03-30 17:40:41,234 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-69
+2026-03-30 17:40:41,722 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-65
+2026-03-30 17:40:41,722 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-65
+2026-03-30 17:40:42,029 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-64
+2026-03-30 17:40:42,029 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-64
+2026-03-30 17:40:42,047 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-18
+2026-03-30 17:40:42,047 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-18
+2026-03-30 17:40:42,364 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-63
+2026-03-30 17:40:42,364 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-63
+2026-03-30 17:40:42,739 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-32
+2026-03-30 17:40:42,739 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-33
+2026-03-30 17:40:42,739 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-32
+2026-03-30 17:40:42,741 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-33
+2026-03-30 17:40:42,743 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-75
+2026-03-30 17:40:42,743 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-75
+2026-03-30 17:40:42,988 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-62
+2026-03-30 17:40:42,988 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-62
+2026-03-30 17:40:43,264 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-88
+2026-03-30 17:40:43,264 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-88
+2026-03-30 17:40:43,279 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-40
+2026-03-30 17:40:43,279 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-40
+2026-03-30 17:40:43,363 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-31
+2026-03-30 17:40:43,363 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-31
+2026-03-30 17:40:43,743 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-60
+2026-03-30 17:40:43,744 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-60
+2026-03-30 17:40:43,745 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-41
+2026-03-30 17:40:43,745 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-41
+2026-03-30 17:40:43,751 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-61
+2026-03-30 17:40:43,751 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-61
+2026-03-30 17:40:43,761 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-16
+2026-03-30 17:40:43,761 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-16
+2026-03-30 17:40:44,042 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-59
+2026-03-30 17:40:44,042 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-59
+2026-03-30 17:40:44,262 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-45
+2026-03-30 17:40:44,262 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-45
+2026-03-30 17:40:44,739 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-58
+2026-03-30 17:40:44,740 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-58
+2026-03-30 17:40:44,913 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-38
+2026-03-30 17:40:44,913 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-38
+2026-03-30 17:40:44,957 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-30
+2026-03-30 17:40:44,957 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-30
+2026-03-30 17:40:45,360 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-29
+2026-03-30 17:40:45,360 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-29
+2026-03-30 17:40:45,743 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-57
+2026-03-30 17:40:45,744 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-95
+2026-03-30 17:40:45,745 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-57
+2026-03-30 17:40:45,745 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-95
+2026-03-30 17:40:45,746 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-15
+2026-03-30 17:40:45,748 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-15
+2026-03-30 17:40:45,942 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-66
+2026-03-30 17:40:45,942 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-66
+2026-03-30 17:40:46,010 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-56
+2026-03-30 17:40:46,010 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-56
+2026-03-30 17:40:46,360 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-55
+2026-03-30 17:40:46,360 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-55
+2026-03-30 17:40:46,727 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-54
+2026-03-30 17:40:46,727 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-54
+2026-03-30 17:40:46,762 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-28
+2026-03-30 17:40:46,762 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-28
+2026-03-30 17:40:47,014 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-53
+2026-03-30 17:40:47,014 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-53
+2026-03-30 17:40:47,350 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-27
+2026-03-30 17:40:47,351 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-27
+2026-03-30 17:40:47,371 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-14
+2026-03-30 17:40:47,371 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-14
+2026-03-30 17:40:47,738 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-52
+2026-03-30 17:40:47,739 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-52
+2026-03-30 17:40:48,347 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-26
+2026-03-30 17:40:48,347 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-26
+2026-03-30 17:40:48,376 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-51
+2026-03-30 17:40:48,376 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-51
+2026-03-30 17:40:48,971 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-13
+2026-03-30 17:40:48,971 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-13
+2026-03-30 17:40:49,003 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-25
+2026-03-30 17:40:49,003 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-25
+2026-03-30 17:40:49,010 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-49
+2026-03-30 17:40:49,010 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-49
+2026-03-30 17:40:49,011 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-50
+2026-03-30 17:40:49,011 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-50
+2026-03-30 17:40:49,746 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-48
+2026-03-30 17:40:49,746 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-48
+2026-03-30 17:40:50,010 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-47
+2026-03-30 17:40:50,010 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-47
+2026-03-30 17:40:50,376 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-24
+2026-03-30 17:40:50,376 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-24
+2026-03-30 17:40:50,755 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-46
+2026-03-30 17:40:50,757 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-46
+2026-03-30 17:40:50,967 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-12
+2026-03-30 17:40:50,968 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-12
+2026-03-30 17:40:51,386 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-45
+2026-03-30 17:40:51,386 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-45
+2026-03-30 17:40:51,398 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-23
+2026-03-30 17:40:51,398 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-23
+2026-03-30 17:40:51,745 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-44
+2026-03-30 17:40:51,746 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-44
+2026-03-30 17:40:52,028 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-22
+2026-03-30 17:40:52,040 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-22
+2026-03-30 17:40:52,372 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-43
+2026-03-30 17:40:52,373 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-43
+2026-03-30 17:40:53,005 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-21
+2026-03-30 17:40:53,005 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-21
+2026-03-30 17:40:53,005 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-41
+2026-03-30 17:40:53,005 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-41
+2026-03-30 17:40:53,368 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-11
+2026-03-30 17:40:53,368 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-11
+2026-03-30 17:40:53,646 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-40
+2026-03-30 17:40:53,646 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-40
+2026-03-30 17:40:54,841 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-38
+2026-03-30 17:40:54,841 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-38
+2026-03-30 17:40:56,009 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-37
+2026-03-30 17:40:56,009 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-37
+2026-03-30 17:40:56,399 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-19
+2026-03-30 17:40:56,400 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-19
+2026-03-30 17:40:56,505 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-36
+2026-03-30 17:40:56,506 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-36
+2026-03-30 17:40:56,562 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-35
+2026-03-30 17:40:56,562 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-35
+2026-03-30 17:40:56,914 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-34
+2026-03-30 17:40:56,914 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-34
+2026-03-30 17:40:56,996 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-9
+2026-03-30 17:40:56,996 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-9
+2026-03-30 17:40:57,290 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-33
+2026-03-30 17:40:57,290 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-33
+2026-03-30 17:40:57,312 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-17
+2026-03-30 17:40:57,312 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-17
+2026-03-30 17:40:57,658 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-32
+2026-03-30 17:40:57,658 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-32
+2026-03-30 17:40:58,265 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-31
+2026-03-30 17:40:58,265 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-31
+2026-03-30 17:40:58,277 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-16
+2026-03-30 17:40:58,278 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-16
+2026-03-30 17:40:58,288 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-18
+2026-03-30 17:40:58,288 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-18
+2026-03-30 17:40:59,132 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-30
+2026-03-30 17:40:59,132 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-30
+2026-03-30 17:40:59,174 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-29
+2026-03-30 17:40:59,174 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-29
+2026-03-30 17:40:59,305 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-8
+2026-03-30 17:40:59,305 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-8
+2026-03-30 17:40:59,541 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-28
+2026-03-30 17:40:59,541 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-28
+2026-03-30 17:40:59,996 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-20
+2026-03-30 17:40:59,996 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-20
+2026-03-30 17:41:00,004 INFO o.a.j.r.Summariser: summary +   2810 in 00:00:30 =   93.7/s Avg:  1293 Min:   602 Max: 21857 Err:     0 (0.00%) Active: 52 Started: 211 Finished: 159
+2026-03-30 17:41:00,004 INFO o.a.j.r.Summariser: summary = 105433 in 00:15:47 =  111.3/s Avg:  1549 Min:   434 Max: 42092 Err:     4 (0.00%)
+2026-03-30 17:41:00,017 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-39
+2026-03-30 17:41:00,017 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-39
+2026-03-30 17:41:00,044 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-42
+2026-03-30 17:41:00,045 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-42
+2026-03-30 17:41:00,068 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-10
+2026-03-30 17:41:00,068 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-10
+2026-03-30 17:41:00,174 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-14
+2026-03-30 17:41:00,175 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-14
+2026-03-30 17:41:00,347 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-27
+2026-03-30 17:41:00,348 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-27
+2026-03-30 17:41:00,412 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-15
+2026-03-30 17:41:00,412 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-15
+2026-03-30 17:41:00,989 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-25
+2026-03-30 17:41:00,989 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-25
+2026-03-30 17:41:01,073 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-26
+2026-03-30 17:41:01,073 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-26
+2026-03-30 17:41:01,081 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-7
+2026-03-30 17:41:01,081 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-7
+2026-03-30 17:41:01,108 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-13
+2026-03-30 17:41:01,108 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-13
+2026-03-30 17:41:01,958 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-24
+2026-03-30 17:41:01,958 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-24
+2026-03-30 17:41:02,215 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-23
+2026-03-30 17:41:02,215 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-23
+2026-03-30 17:41:02,441 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-12
+2026-03-30 17:41:02,441 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-12
+2026-03-30 17:41:02,724 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-22
+2026-03-30 17:41:02,724 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-22
+2026-03-30 17:41:03,062 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-21
+2026-03-30 17:41:03,062 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-21
+2026-03-30 17:41:03,271 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-11
+2026-03-30 17:41:03,271 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-11
+2026-03-30 17:41:03,461 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-20
+2026-03-30 17:41:03,461 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-20
+2026-03-30 17:41:03,494 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-6
+2026-03-30 17:41:03,494 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-6
+2026-03-30 17:41:04,111 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-10
+2026-03-30 17:41:04,111 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-10
+2026-03-30 17:41:04,177 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-19
+2026-03-30 17:41:04,177 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-19
+2026-03-30 17:41:05,013 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-18
+2026-03-30 17:41:05,013 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-18
+2026-03-30 17:41:05,046 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-5
+2026-03-30 17:41:05,046 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-5
+2026-03-30 17:41:05,259 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-17
+2026-03-30 17:41:05,259 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-17
+2026-03-30 17:41:05,424 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-9
+2026-03-30 17:41:05,424 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-9
+2026-03-30 17:41:06,020 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-16
+2026-03-30 17:41:06,020 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-16
+2026-03-30 17:41:06,129 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-15
+2026-03-30 17:41:06,129 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-15
+2026-03-30 17:41:06,530 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-8
+2026-03-30 17:41:06,530 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-8
+2026-03-30 17:41:06,890 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-14
+2026-03-30 17:41:06,890 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-14
+2026-03-30 17:41:07,356 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-13
+2026-03-30 17:41:07,356 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-13
+2026-03-30 17:41:07,369 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-7
+2026-03-30 17:41:07,369 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-7
+2026-03-30 17:41:07,493 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-4
+2026-03-30 17:41:07,493 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-4
+2026-03-30 17:41:07,872 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-12
+2026-03-30 17:41:07,872 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-12
+2026-03-30 17:41:07,967 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-11
+2026-03-30 17:41:07,968 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-11
+2026-03-30 17:41:08,379 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-6
+2026-03-30 17:41:08,379 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-6
+2026-03-30 17:41:08,638 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-10
+2026-03-30 17:41:08,638 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-10
+2026-03-30 17:41:09,079 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-9
+2026-03-30 17:41:09,079 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-9
+2026-03-30 17:41:09,107 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-5
+2026-03-30 17:41:09,107 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-5
+2026-03-30 17:41:09,171 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-3
+2026-03-30 17:41:09,171 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-3
+2026-03-30 17:41:10,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-8
+2026-03-30 17:41:10,124 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-8
+2026-03-30 17:41:10,341 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-7
+2026-03-30 17:41:10,341 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-7
+2026-03-30 17:41:10,468 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-4
+2026-03-30 17:41:10,468 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-4
+2026-03-30 17:41:10,622 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-6
+2026-03-30 17:41:10,622 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-6
+2026-03-30 17:41:11,139 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-3
+2026-03-30 17:41:11,139 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-3
+2026-03-30 17:41:11,198 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-2
+2026-03-30 17:41:11,198 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-2
+2026-03-30 17:41:11,574 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-5
+2026-03-30 17:41:11,574 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-5
+2026-03-30 17:41:11,596 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-4
+2026-03-30 17:41:11,597 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-4
+2026-03-30 17:41:12,240 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-2
+2026-03-30 17:41:12,240 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-2
+2026-03-30 17:41:12,433 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-3
+2026-03-30 17:41:12,433 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-3
+2026-03-30 17:41:12,817 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-2
+2026-03-30 17:41:12,817 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-2
+2026-03-30 17:41:12,913 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 60 3-1
+2026-03-30 17:41:12,913 INFO o.a.j.t.JMeterThread: Thread finished: Estres 60 3-1
+2026-03-30 17:41:13,057 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Estres 120 4-1
+2026-03-30 17:41:13,057 INFO o.a.j.t.JMeterThread: Thread finished: Estres 120 4-1
+2026-03-30 17:41:13,240 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga 2-1
+2026-03-30 17:41:13,240 INFO o.a.j.t.JMeterThread: Thread finished: Carga 2-1
+2026-03-30 17:41:13,240 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-03-30 17:41:13,240 INFO o.a.j.s.FileServer: Close: ./Data/LoginData.csv
+2026-03-30 17:41:13,361 INFO o.a.j.r.Summariser: summary +    543 in 00:00:13 =   40.6/s Avg:   793 Min:   600 Max:  7684 Err:     0 (0.00%) Active: 0 Started: 211 Finished: 211
+2026-03-30 17:41:13,361 INFO o.a.j.r.Summariser: summary = 105976 in 00:16:01 =  110.3/s Avg:  1546 Min:   434 Max: 42092 Err:     4 (0.00%)
+2026-03-30 17:41:13,361 INFO o.a.j.JMeter: Generating Dashboard
+2026-03-30 17:41:13,361 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-03-30 17:41:13,384 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-03-30 17:41:16,020 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-03-30 17:41:16,020 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-03-30 17:41:16,022 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-03-30 17:41:16,022 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-03-30 17:41:16,024 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-03-30 17:41:16,024 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-03-30 17:41:16,024 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-03-30 17:41:16,024 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-03-30 17:41:16,901 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-03-30 17:41:16,923 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-03-30 17:41:16,923 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-03-30 17:41:16,923 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-03-30 17:41:17,790 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-03-30 17:41:17,790 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 741832 samples
+2026-03-30 17:41:17,790 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-03-30 17:41:17,790 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-03-30 17:41:17,790 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-03-30 17:41:17,790 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-03-30 17:41:17,790 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-03-30 17:41:17,790 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-03-30 17:41:17,790 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-03-30 17:41:17,806 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-03-30 17:41:17,806 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-03-30 17:41:17,806 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-03-30 17:41:17,806 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 1589640 samples
+2026-03-30 17:41:17,806 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 317928 samples
+2026-03-30 17:41:17,806 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 105976 samples
+2026-03-30 17:41:17,806 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 105976 samples produced in 4s 389 ms on channel 0
+2026-03-30 17:41:17,806 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-03-30 17:41:17,948 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-03-30 17:41:17,948 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-03-30 17:41:17,948 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-03-30 17:41:17,948 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-03-30 17:41:17,948 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\RepoPersonales\Prueba-tecnica-QA-Sofka\JMeter\.\reporte_html\statistics.json
+2026-03-30 17:41:18,001 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-03-30 17:41:18,004 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\RepoPersonales\Prueba-tecnica-QA-Sofka\JMeter\.\reporte_html
+2026-03-30 17:41:18,126 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\RepoPersonales\Prueba-tecnica-QA-Sofka\JMeter\.\reporte_html, creating folder structure
+2026-03-30 17:41:18,129 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\JMeter\apache-jmeter-5.6.3\bin\report-template' to 'C:\RepoPersonales\Prueba-tecnica-QA-Sofka\JMeter\.\reporte_html', got message: C:\RepoPersonales\Prueba-tecnica-QA-Sofka\JMeter\.\reporte_html, found non empty folder with following content [C:\RepoPersonales\Prueba-tecnica-QA-Sofka\JMeter\.\reporte_html\statistics.json], will be ignored
+2026-03-30 17:41:19,489 INFO o.a.j.JMeter: Dashboard generated

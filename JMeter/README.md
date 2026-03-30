@@ -17,33 +17,41 @@ Para facilitar la portabilidad entre entornos (Dev, QA, Prod), se utilizan varia
 
 ### 📂 Parametrización (Data-Driven)
 Se utiliza un elemento **CSV Data Set Config** para inyectar datos de prueba:
-*   **Archivo:** `C:/JMeter/script/Data/LoginData.csv`
+*   **Archivo:** `./script/Data/LoginData.csv`
 *   **Variables:** `username`, `password`
-*   **Configuración:** Delimitador `;`, ignora la primera línea (cabecera) y recicla los datos al terminar el archivo.
+*   **Configuración:** Delimitador `,`, ignora la primera línea (cabecera) y recicla los datos al terminar el archivo.
 
 ---
 
 ## 🚀 3. Estrategias de Carga (Thread Groups)
 
-El plan de pruebas está estructurado en 4 escenarios distintos para cubrir diferentes tipos de pruebas de rendimiento:
+### Comparativa de Escenarios de Prueba
+
+Este documento detalla la configuración técnica de los tres escenarios definidos en el Plan de Pruebas de JMeter: **Línea Base**, **Carga** y **Estrés**.
+
+#### 1. Tabla Comparativa de Métricas y Configuración
 
 
-| Escenario | Tipo de Prueba | Configuración | Estado inicial |
+| Métrica / Configuración | Línea Base | Carga | Estrés |
 | :--- | :--- | :--- | :--- |
-| **Línea Base** | Control | 1 Hilo / 300 Iteraciones | **Habilitado** |
-| **Grupo de Hilos** | Carga Unitaria | 1 Hilo / 300 Iteraciones | Deshabilitado |
-| **Carga** | Carga Progresiva | 30 Hilos / Ramp-up 300s / Duración 600s | Deshabilitado |
-| **Estrés** | Estrés / Pico | 60 Hilos / Ramp-up 300s / Duración 600s | Deshabilitado |
+| **Tipo de Thread Group** | Thread Group estándar | Ultimate Thread Group | Ultimate Thread Group |
+| **Usuarios (Threads)** | 1 | 30 | 60 |
+| **Ramp-up (Arranque)** | 1 segundo | 0 segundos | 0 segundos |
+| **Hold-on (Mantenimiento)** | N/A (300 iteraciones) | 300 segundos | 300 segundos |
+| **Shutdown (Parada)** | Inmediato | 60 segundos | 60 segundos |
+| **Control de Bucles** | 300 iteraciones | Infinito (Tiempo definido) | Infinito (Tiempo definido) |
+| **Acción ante Error** | `startnextloop` | `continue` | `continue` |
 
 ---
 
-## 🛠️ 4. Detalles del Sampler HTTP
+#### 2. Detalles de Implementación Comunes
 
-### **Endpoint: Fakestoreapi Login**
-*   **Método:** `POST`
+##### Parámetros de Petición HTTP
+*   **Protocolo:** `${protocolo}` (https)
+*   **Dominio:** `${url}` (fakestoreapi.com)
 *   **Ruta:** `/auth/login`
-*   **Cabeceras:** `Content-Type: application/json`
-*   **Cuerpo de la petición (JSON Raw):**
+*   **Método:** `POST`
+*   **Cuerpo (JSON):**
     ```json
     {
       "username": "${username}",
@@ -51,13 +59,22 @@ El plan de pruebas está estructurado en 4 escenarios distintos para cubrir dife
     }
     ```
 
+##### Validaciones (Aserciones)
+Para asegurar la integridad de las pruebas, todos los escenarios incluyen:
+1.  **Response Code Assertion:** Verifica que el código de respuesta sea **201**.
+2.  **Response Body Assertion:** Valida que el cuerpo de la respuesta contenga el campo **"token"**.
+
+##### Gestión de Datos
+*   **Origen:** Archivo CSV ubicado en `./Data/LoginData.csv`.
+*   **Variables:** `username`, `password`.
+*   **Delimitador:** `;`.
+
 ---
 
-## ✅ 5. Validaciones y Aseveraciones (Assertions)
-
-Para garantizar que el servidor responde correctamente más allá del código HTTP, se han configurado:
-1.  **Response Assertion Code:** Valida que el código de respuesta sea estrictamente **201**.
-2.  **Response Assertion Body:** Valida que el cuerpo de la respuesta contenga el texto `"token"`.
+#### 3. Relevancia de los Escenarios
+*   **Línea Base:** Establece el rendimiento ideal con un solo usuario para comparar desviaciones.
+*   **Carga:** Evalúa el comportamiento del sistema bajo el volumen de usuarios esperado.
+*   **Estrés:** Busca identificar el punto de degradación o ruptura doblando la carga inicial.
 
 ---
 
